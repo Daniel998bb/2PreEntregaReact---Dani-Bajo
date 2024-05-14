@@ -1,0 +1,8 @@
+.text{
+    color: blue;
+}
+
+.contendor{
+    display: flex;
+    width: 100%;
+}
