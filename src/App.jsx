@@ -1,10 +1,16 @@
-import './App.css'
-import Menu  from './components/menu/menu'
+// src/App.jsx
+import React from 'react';
+import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 
 function App() {
   return (
-    <Menu />
-  )
+    <div>
+      <NavBar />
+      <ItemListContainer greeting="Bienvenido a luxury shop, la mejor tienda calidad-precio." />
+    </div>
+  );
 }
 
-export default App
+export default App;

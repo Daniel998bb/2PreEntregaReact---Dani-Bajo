@@ -1,0 +1,13 @@
+.cart-widget {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 20px;
+  }
+  
+  .cart-widget span {
+    margin-left: 1px;
+    padding: 10px;
+    color: rgb(255, 0, 0);
+  }
+  
