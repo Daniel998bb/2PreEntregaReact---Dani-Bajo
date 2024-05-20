@@ -1,4 +1,4 @@
-// src/components/menu/Menu.jsx
+
 import React from 'react';
 import './menu.css';
 

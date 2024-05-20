@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <nav className="navbar-top"> 
       <div className="brand">
-      <img src={logo} alt="Logo de Luxury Shop" className='logo' /> {/* Utiliza el logo */}
+      <img src={logo} alt="Logo de Luxury Shop" className='logo' /> 
         <h1>Lux Shop</h1>
       </div>
       <Menu />
