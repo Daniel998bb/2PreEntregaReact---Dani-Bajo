@@ -1,0 +1,41 @@
+.item-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px; /* Reduce el padding para hacer la tarjeta más compacta */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce la sombra para que la tarjeta parezca más pequeña */
+    max-width: 300px; /* Reduce el tamaño máximo de la tarjeta */
+    margin: 10px auto; /* Reduce el margen */
+    background-color: #fff; /* Fondo blanco para contraste */
+  }
+  
+  .item-name {
+    font-size: 1.2em; /* Reduce el tamaño de la fuente */
+    margin-bottom: 5px; /* Reduce el margen inferior */
+    text-align: center;
+  }
+  
+  .item-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px; /* Reduce el margen inferior */
+    object-fit: cover; /* Asegura que la imagen se adapte al contenedor */
+  }
+  
+  .item-description {
+    font-size: 0.9em; /* Reduce el tamaño de la fuente */
+    color: #555;
+    margin-bottom: 10px; /* Reduce el margen inferior */
+    text-align: center;
+  }
+  
+  .item-price {
+    font-size: 1em; /* Reduce el tamaño de la fuente */
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+  }
+  
