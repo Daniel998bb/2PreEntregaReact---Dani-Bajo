@@ -1,6 +1,6 @@
 import React from 'react';
 import CartWidget from '../cartWidget/CartWidget';
-import Menu from '../menu/Menu';
+import Menu from '../menu/MenuCategoria';
 import LogoLink from '../LogoLink/LogoLink';
 import './NavBar.css';
 

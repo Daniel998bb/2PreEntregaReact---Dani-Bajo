@@ -18,7 +18,7 @@ const products = [
     {
         id: 3,
         name: "Collar Gucci Link to Love",
-        description: "Collar de la colección Gucci Link to Love con barra Gucci.",
+        description: "Collar de la colección Gucci Link to Love Gucci.",
         image: "https://media.gucci.com/style/DarkGray_South_0_160_316x316/1626277912/662108_J8500_8000_001_100_0000_Light-Collar-Gucci-Link-to-Love-con-barra-Gucci.jpg",
         price: 1890,
         type: "collar" // Indica que este producto es un collar

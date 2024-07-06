@@ -1,15 +1,13 @@
+// ItemList.js
 import React from 'react';
-import './ItemStyles.css'; 
-import products from '../data/asyncmock';
+import Item from './Item'; // Importa el componente Item
 
-const ItemList = () => {
+
+const ItemList = ({ products }) => {
   return (
     <div className="item-list">
-      {products.map(item => (
-        <div key={item.id} className={`item ${item.type}`}>
-          <img src={item.image} alt={item.name} />
-          <p className="item-name">{item.name}</p> 
-        </div>
+      {products.map(product => (
+        <Item key={product.id} item={product} />
       ))}
     </div>
   );

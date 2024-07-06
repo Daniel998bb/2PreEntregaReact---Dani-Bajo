@@ -1,3 +1,5 @@
+/* ItemListContainer.css */
+
 .item-list-container {
   padding: 20px;
   max-width: 1200px;
@@ -5,9 +7,9 @@
 }
 
 .greeting-container {
-  margin-top: 150px; 
-  margin-bottom: 40px; 
-  text-align: center; 
+  margin-top: 150px; /* Ajustado para reducir el margen superior */
+  margin-bottom: 20px; /* Ajustado para reducir el margen inferior */
+  text-align: center;
 }
 
 .greeting {
@@ -26,15 +28,16 @@
 }
 
 .product-item {
-  position: relative; /* Añade posición relativa al elemento padre */
+  flex: 0 0 calc(33.33% - 20px); /* Ajustado para mostrar 3 columnas en dispositivos grandes */
+  position: relative;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 20px;
-  width: 250px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.2s;
+  margin-bottom: 20px; /* Espacio entre los elementos */
 }
 
 .product-item:hover {
@@ -55,15 +58,15 @@
 
 .product-image {
   max-width: 100%;
-  height: 200px; /* Establece una altura fija para todas las imágenes */
+  height: 200px;
   border-radius: 5px;
 }
 
 .see-more-link {
-  position: absolute; /* Posiciona el enlace de manera absoluta */
-  bottom: 5px; /* Ajusta la distancia desde la parte inferior del contenedor */
-  left: 50%; /* Centra el enlace horizontalmente */
-  transform: translateX(-50%); /* Centra horizontalmente el enlace */
+  position: absolute;
+  bottom: 10px; /* Ajustado para centrar mejor el enlace */
+  left: 50%;
+  transform: translateX(-50%);
   text-decoration: none;
   color: #007bff;
   margin-top: 5px;
